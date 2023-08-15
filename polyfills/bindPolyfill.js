@@ -18,5 +18,5 @@ Function.prototype.myBind = function (context = {}, ...args) {
   };
 };
 
-const bindedFunc = carInfo.myBind(carInfo, "$", 75000);
+const bindedFunc = carInfo.myBind(myCar, "$", 75000);
 bindedFunc();
